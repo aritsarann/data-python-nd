@@ -1,0 +1,51 @@
+school,school_setting,school_type,classroom,teaching_method,n_student,student_id,gender,lunch,pretest,posttest
+ANKYI,Urban,Non-public,6OL,Standard,20,2FHT3,Female,Does not qualify,62,72
+ANKYI,Urban,Non-public,6OL,Standard,20,3JIVH,Female,Does not qualify,66,79
+ANKYI,Urban,Non-public,6OL,Standard,20,3XOWE,Male,Does not qualify,64,76
+ANKYI,Urban,Non-public,6OL,Standard,20,556O0,Female,Does not qualify,61,77
+ANKYI,Urban,Non-public,6OL,Standard,20,74LOE,Male,Does not qualify,64,76
+ANKYI,Urban,Non-public,6OL,Standard,20,7YZO8,Female,Does not qualify,66,74
+ANKYI,Urban,Non-public,6OL,Standard,20,9KMZD,Male,Does not qualify,63,75
+ANKYI,Urban,Non-public,6OL,Standard,20,9USQK,Female,Does not qualify,63,72
+ANKYI,Urban,Non-public,6OL,Standard,20,CS5QP,Male,Does not qualify,64,77
+ANKYI,Urban,Non-public,6OL,Standard,20,D6HT8,Female,Does not qualify,61,72
+ANKYI,Urban,Non-public,6OL,Standard,20,DZMKU,Male,Does not qualify,61,73
+ANKYI,Urban,Non-public,6OL,Standard,20,FH7B9,Male,Does not qualify,64,74
+ANKYI,Urban,Non-public,6OL,Standard,20,JI9VG,Male,Does not qualify,66,78
+ANKYI,Urban,Non-public,6OL,Standard,20,JQM2W,Female,Does not qualify,60,71
+ANKYI,Urban,Non-public,6OL,Standard,20,MEUC4,Female,Does not qualify,64,77
+ANKYI,Urban,Non-public,6OL,Standard,20,R4U8H,Male,Does not qualify,64,73
+ANKYI,Urban,Non-public,6OL,Standard,20,TH7KI,Male,Does not qualify,63,70
+ANKYI,Urban,Non-public,6OL,Standard,20,U1FV7,Male,Does not qualify,67,73
+ANKYI,Urban,Non-public,6OL,Standard,20,WC5I6,Female,Does not qualify,63,71
+ANKYI,Urban,Non-public,6OL,Standard,20,ZBQ4T,Male,Does not qualify,64,73
+ANKYI,Urban,Non-public,ZNS,Standard,21,0CRO6,Male,Does not qualify,60,68
+ANKYI,Urban,Non-public,ZNS,Standard,21,1QMDI,Male,Does not qualify,60,70
+ANKYI,Urban,Non-public,ZNS,Standard,21,3CFUK,Male,Does not qualify,57,66
+ANKYI,Urban,Non-public,ZNS,Standard,21,447O0,Male,Does not qualify,57,70
+ANKYI,Urban,Non-public,ZNS,Standard,21,4IDEM,Female,Qualifies for reduced/free lunch,56,65
+ANKYI,Urban,Non-public,ZNS,Standard,21,5UQNP,Male,Does not qualify,58,67
+ANKYI,Urban,Non-public,ZNS,Standard,21,AV95M,Female,Does not qualify,60,70
+ANKYI,Urban,Non-public,ZNS,Standard,21,BX6I6,Female,Does not qualify,60,67
+ANKYI,Urban,Non-public,ZNS,Standard,21,EYFXR,Male,Does not qualify,54,63
+ANKYI,Urban,Non-public,ZNS,Standard,21,FFC9M,Male,Does not qualify,60,75
+ANKYI,Urban,Non-public,ZNS,Standard,21,GGT4A,Male,Does not qualify,58,66
+ANKYI,Urban,Non-public,ZNS,Standard,21,HRZOJ,Female,Does not qualify,66,71
+ANKYI,Urban,Non-public,ZNS,Standard,21,IFC62,Male,Does not qualify,60,76
+ANKYI,Urban,Non-public,ZNS,Standard,21,LLQI3,Female,Does not qualify,59,69
+ANKYI,Urban,Non-public,ZNS,Standard,21,OCJE3,Female,Does not qualify,57,69
+ANKYI,Urban,Non-public,ZNS,Standard,21,OGW1F,Female,Does not qualify,60,68
+ANKYI,Urban,Non-public,ZNS,Standard,21,Q5QRY,Female,Does not qualify,61,71
+ANKYI,Urban,Non-public,ZNS,Standard,21,TJRIV,Female,Does not qualify,61,66
+ANKYI,Urban,Non-public,ZNS,Standard,21,U24U5,Female,Does not qualify,59,69
+ANKYI,Urban,Non-public,ZNS,Standard,21,VKX2N,Female,Does not qualify,62,72
+ANKYI,Urban,Non-public,ZNS,Standard,21,ZTROF,Male,Does not qualify,60,66
+CCAAW,Suburban,Non-public,2B1,Experimental,18,1IALS,Female,Does not qualify,61,75
+CCAAW,Suburban,Non-public,2B1,Experimental,18,5NDXD,Male,Qualifies for reduced/free lunch,58,78
+CCAAW,Suburban,Non-public,2B1,Experimental,18,6DCTV,Female,Qualifies for reduced/free lunch,64,82
+CCAAW,Suburban,Non-public,2B1,Experimental,18,6OB0S,Male,Qualifies for reduced/free lunch,58,77
+CCAAW,Suburban,Non-public,2B1,Experimental,18,AITPY,Male,Does not qualify,65,87
+CCAAW,Suburban,Non-public,2B1,Experimental,18,B8B6G,Male,Does not qualify,65,80
+CCAAW,Suburban,Non-public,2B1,Experimental,18,C0UW3,Female,Qualifies for reduced/free lunch,62,75
+CCAAW,Suburban,Non-public,2B1,Experimental,18,CD1MB,Male,Qualifies for reduced/free lunch,58,73
+CCAAW,Suburban,Non-public,2B1,Experimental,18,F4ZHY,Male,Qualifies for reduced/free lunch,59,74
