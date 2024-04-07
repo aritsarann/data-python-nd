@@ -1,6 +1,6 @@
 ## 2023-2024 World Air Quality : PM2.5
 
-![image](https://imgur.com/TaSeqqv.jpg)
+![image](https://imgur.com/9Smq6ou.jpg)
 
 ### About Dataset
 ข้อมูลที่ใช้ในการสร้าง chart นี้จาก [World Air Quality Data 2024 (Updated)](https://www.kaggle.com/datasets/kanchana1990/world-air-quality-data-2024-updated) ที่มีการรวบรวมการตรวจวัดคุณภาพอากาศจากสถานที่ 8,469 แห่งใน 65 ประเทศ ข้อมูลถูกรวบรวมจากแหล่งข้อมูลระดับรัฐบาลและระดับการวิจัย 105 แห่งโดย [OpenAQ](https://public.opendatasoft.com/explore/dataset/openaq/export/?disjunctive.city&disjunctive.location&disjunctive.measurements_parameter&sort=measurements_lastupdated&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoibWVhc3VyZW1lbnRzX3ZhbHVlIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoicmFuZ2UtY3VzdG9tIn1dLCJ4QXhpcyI6Im1lYXN1cmVtZW50c19sYXN0dXBkYXRlZCIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6ImRheSIsInNvcnQiOiIiLCJzZXJpZXNCcmVha2Rvd24iOiJtZWFzdXJlbWVudHNfcGFyYW1ldGVyIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJvcGVuYXEiLCJvcHRpb25zIjp7ImRpc2p1bmN0aXZlLmNpdHkiOnRydWUsImRpc2p1bmN0aXZlLmxvY2F0aW9uIjp0cnVlLCJkaXNqdW5jdGl2ZS5tZWFzdXJlbWVudHNfcGFyYW1ldGVyIjp0cnVlLCJzb3J0IjoibWVhc3VyZW1lbnRzX2xhc3R1cGRhdGVkIn19fV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&location=2,2.98693,49.21875&basemap=jawg.light) 
