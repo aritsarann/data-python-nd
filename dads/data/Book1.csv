@@ -1,0 +1,26 @@
+City,Country,Latitude,Longitude,Population,LifeExpectancy
+New York,USA,40.7128,-74.006,8.4,80.2
+Los Angeles,USA,34.0522,-118.2437,3.9,81.1
+Chicago,USA,41.8781,-87.6298,2.7,79.5
+Houston,USA,29.7633,-95.3632,2.3,78.9
+Phoenix,USA,33.4484,-112.0739,1.7,80.5
+Philadelphia,USA,39.9523,-75.1631,1.6,79.2
+San Antonio,USA,29.4241,-98.4936,1.5,79.1
+San Diego,USA,32.7157,-117.1611,1.4,81.3
+Dallas,USA,32.7767,-96.7969,1.3,79.4
+San Jose,USA,37.3382,-121.8863,1,82.1
+Toronto,Canada,43.6532,-79.3832,2.7,81.9
+Montreal,Canada,45.5017,-73.5673,1.7,81.5
+Vancouver,Canada,49.2827,-123.1207,0.6,82.3
+London,UK,51.5074,-0.1278,8.9,80.9
+Paris,France,48.8567,2.2943,2.1,82.2
+Berlin,Germany,52.52,13.405,6,80.7
+Rome,Italy,41.8781,12.4964,2.8,82.5
+Tokyo,Japan,35.6895,139.767,13.9,84.2
+Beijing,China,39.9042,116.3974,21.5,76.9
+Mumbai,India,19.0759,72.8777,12.4,69.5
+Sao Paulo,Brazil,-23.5505,-46.6333,21.3,75.5
+Buenos Aires,Argentina,-34.6037,-58.3816,15.6,76.7
+Cairo,Egypt,30.0522,31.2497,20.4,71.3
+Lagos,Nigeria,6.455,3.3947,13.4,64.1
+Moscow,Russia,55.7558,37.6173,12.6,72.5
