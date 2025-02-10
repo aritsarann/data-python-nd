@@ -8,25 +8,28 @@ This project aims to analyze global air quality using PM2.5 data from [World Air
 
 
 ## Data and Data Source
-[World Air Quality Data 2024 (Updated)](https://www.kaggle.com/datasets/kanchana1990/world-air-quality-data-2024-updated) มีการรวบรวมการตรวจวัดคุณภาพอากาศจากสถานที่ 8,469 แห่งใน 65 ประเทศ ข้อมูลถูกรวบรวมจากแหล่งข้อมูลระดับรัฐบาลและระดับการวิจัย 105 แห่งโดย [OpenAQ](https://public.opendatasoft.com/explore/dataset/openaq/export/?disjunctive.city&disjunctive.location&disjunctive.measurements_parameter&sort=measurements_lastupdated&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoibWVhc3VyZW1lbnRzX3ZhbHVlIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoicmFuZ2UtY3VzdG9tIn1dLCJ4QXhpcyI6Im1lYXN1cmVtZW50c19sYXN0dXBkYXRlZCIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6ImRheSIsInNvcnQiOiIiLCJzZXJpZXNCcmVha2Rvd24iOiJtZWFzdXJlbWVudHNfcGFyYW1ldGVyIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJvcGVuYXEiLCJvcHRpb25zIjp7ImRpc2p1bmN0aXZlLmNpdHkiOnRydWUsImRpc2p1bmN0aXZlLmxvY2F0aW9uIjp0cnVlLCJkaXNqdW5jdGl2ZS5tZWFzdXJlbWVudHNfcGFyYW1ldGVyIjp0cnVlLCJzb3J0IjoibWVhc3VyZW1lbnRzX2xhc3R1cGRhdGVkIn19fV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&location=2,2.98693,49.21875&basemap=jawg.light) 
-ข้อมูลแต่ละรายการมีรายละเอียดพารามิเตอร์คุณภาพอากาศที่สำคัญ อาทิ PM2.5, NO2, SO2, CO และ O3 ตั้งแต่ปี 2015 จนถึงเดือนมีนาคม 2024 พร้อมทั้งพิกัดทางภูมิศาสตร์ ชุดข้อมูลนี้จึงเป็นแหล่งข้อมูลที่เหมาะสมในการทำความเข้าใจสถานะปัจจุบันและแนวโน้มของคุณภาพอากาศทั่วโลก 
+[World Air Quality Data 2024 (Updated)](https://www.kaggle.com/datasets/kanchana1990/world-air-quality-data-2024-updated) has been collected from 8,469 locations across 65 countries, with data sourced from 105 governmental and research organizations through [OpenAQ](https://public.opendatasoft.com/explore/dataset/openaq/export/?disjunctive.city&disjunctive.location&disjunctive.measurements_parameter&sort=measurements_lastupdated&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoibWVhc3VyZW1lbnRzX3ZhbHVlIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoicmFuZ2UtY3VzdG9tIn1dLCJ4QXhpcyI6Im1lYXN1cmVtZW50c19sYXN0dXBkYXRlZCIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6ImRheSIsInNvcnQiOiIiLCJzZXJpZXNCcmVha2Rvd24iOiJtZWFzdXJlbWVudHNfcGFyYW1ldGVyIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJvcGVuYXEiLCJvcHRpb25zIjp7ImRpc2p1bmN0aXZlLmNpdHkiOnRydWUsImRpc2p1bmN0aXZlLmxvY2F0aW9uIjp0cnVlLCJkaXNqdW5jdGl2ZS5tZWFzdXJlbWVudHNfcGFyYW1ldGVyIjp0cnVlLCJzb3J0IjoibWVhc3VyZW1lbnRzX2xhc3R1cGRhdGVkIn19fV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&location=2,2.98693,49.21875&basemap=jawg.light) 
+Each data entry contains key air quality parameters such as PM2.5, NO2, SO2, CO, and O3, spanning from 2015 to March 2024, along with geographic coordinates. This dataset serves as a valuable resource for understanding the current status and trends of global air quality.
 
-PM2.5 เป็นฝุ่นละอองในบรรยากาศที่มีขนาดเล็ก บางเบา และมีผลกระทบด้านลบต่อสุขภาพของประชากร จากการที่อนุภาค PM2.5 มีขนาดเล็กจึงสามารถลอยตัวอยู่ในอากาศได้นานกว่าอนุภาคอื่น เป็นการเพิ่มโอกาสให้ PM2.5 สามารถเข้าสู่ร่างกายของมนุษย์ได้มากขึ้นผ่านการหายใจ ซึ่งสามารถกระตุ้นหรือส่งผลต่อโรคบางชนิดให้มีอาการแย่ลง เช่น โรคหอบหืด โรคหัวใจ โรคหลอดลมอักเสบ หรือโรคทางเดินหายใจอื่น ๆ ตามที่งานวิจัยในวารสาร American Medical Association ได้ระบุไว้ว่า การเผชิญกับ PM2.5 ต่อเนื่องกันเป็นระยะเวลานานจะนำไปสู่การเกิดผลึกตะกอนในหลอดเลือดแดง ซึ่งเป็นสาเหตุของการอักเสบของหลอดเลือด ทำให้หลอดเลือดแดงแข็งตัวขึ้นซึ่งอาจเป็นสาเหตุของการเกิดโรคหัวใจและโรคหลอดเลือดในสมองตามมาได้ งานในครั้งนี้จึงสนใจศึกษา PM2.5 เป็นหลัก
+PM2.5 consists of fine particulate matter that is small, lightweight, and poses significant health risks. Due to their small size, PM2.5 particles remain airborne for longer periods, increasing the likelihood of inhalation. Exposure to PM2.5 has been linked to respiratory diseases such as asthma, bronchitis, and other lung conditions, as well as cardiovascular diseases. According to research published in the American Medical Association Journal, prolonged exposure to PM2.5 contributes to plaque formation in arteries, leading to inflammation, arterial stiffening, and increased risks of heart disease and stroke. Given these severe health impacts, this study primarily focuses on PM2.5 pollution.
      
 
 ## Distribution of PM2.5 Pollution Levels - Visualize with Scatter Plots on Mapbox
-Scatter Plots บน Mapbox แสดงภาพระดับมลพิษ PM2.5 ในพื้นที่ต่าง ๆ ด้วยความสามารถในการแสดงข้อมูลที่เกี่ยวข้องกับพิกัดทางภูมิศาสตร์ โดยสีของจุดแสดงถึงระดับมลพิษ PM2.5 ที่ตรงกับตำแหน่งที่ตรวจวัดคุณภาพอากาศ แสดงให้เห็นภาพรวมของระดับมลพิษ PM2.5 โดยเฉลี่ยต่อปีในพื้นที่ต่าง ๆ ช่วยให้ผู้ชมเข้าใจและรับรู้ถึงสถานการณ์ของระดับมลพิษ PM2.5 ในอากาศของปีที่ผ่านมาได้โดยง่าย ด้วยการแบ่งระดับความรุนแรงของมลพิษ PM2.5 ตามสี และมาตรฐานคุณภาพอากาศจาก The National Ambient Air Quality Standards for Particle Pollution :
 
-* สีเขียว : ระดับ "Low"
-* สีเหลือง : ระดับ "Moderate"
-* สีส้ม : ระดับ "Unhealthy for Sensitive Groups"
-* สีแดง : ระดับ "Unhealthy"
-* สีม่วง : ระดับ "Very Unhealthy"
+A scatter plot visualization on Mapbox is used to represent PM2.5 pollution levels across different regions. By leveraging geographic coordinates, the scatter plots display air quality monitoring locations, where the color of each point corresponds to the level of PM2.5 pollution at that location. This visualization provides an annual overview of PM2.5 pollution trends, making it easier to understand air quality conditions across regions.
 
-นอกจากนี้ แผนที่ระดับมลพิษ PM2.5 สามารถนำไปประกอบการตัดสินใจในการศึกษาหรือกิจกรรมอื่น ๆ ได้อย่างมีประสิทธิภาพ ซึ่งอาจสำรวจเพิ่มเติมในพื้นที่ที่มี PM 2.5 ในระดับ “Very Unhealthy” เพื่อระบุถึงสาเหตุของมลพิษดังกล่าวและหาแนวทางแก้ไข หรือการดำเนินการที่จำเป็นในการควบคุมมลพิษต่อไป เช่น พื้นที่บริเวณดังกล่าวตั้งอยู่ใกล้กับสนามบินหรือโรงงานอุตสาหกรรม อาจดำเนินการหามาตรการที่เหมาะสมในการควบคุมระดับมลพิษ เพื่อใม่ให้ส่งผลกระทบต่อสุขภาพของประชากรในบริเวณดังกล่าว
+The severity of PM2.5 pollution is categorized according to the National Ambient Air Quality Standards for Particle Pollution, using the following color-coded levels:
+
+* Green: Low
+* Yellow: Moderate
+* Orange: Unhealthy for Sensitive Groups
+* Red: Unhealthy
+* Purple: Very Unhealthy
+
+This interactive PM2.5 pollution map can aid decision-making in research and environmental policy. Areas classified as "Very Unhealthy" can be further examined to identify pollution sources and mitigation strategies. For example, regions near airports or industrial zones may require stricter pollution control measures to minimize health risks for nearby populations.
 
 
 ## Observation
-จากแผนที่ระดับมลพิษ PM2.5 พบว่า ระดับ PM2.5 ที่อยู่ในระดับ "Unhealthy" กระจายอยู่ในทวีปยุโรปและในเมืองต่าง ๆ ของเม็กซิโกที่ตั้งอยู่ตอนล่างของทวีปอเมริกาเหนือ ตลอดจนมีการกระจุกตัวอยู่พื้นที่ตอนบนหรือภาคเหนือของไทย ที่ซึ่งมี PM2.5 ในระดับ "Very Unhealthy" บริเวณพื้นที่ที่ติดกับประเทศเมียนมาร์อยู่ด้วยเช่นเดียวกัน
+The PM2.5 pollution map reveals that "Unhealthy" PM2.5 levels are widely distributed across Europe and various cities in Mexico (located in the lower part of North America). Furthermore, a high concentration of "Very Unhealthy" PM2.5 levels is observed in northern Thailand, near the Myanmar border.
 
-ทั้งนี้ พื้นที่ที่มีข้อมูลระดับมลพิษ PM2.5 ในปี 2023-2024 ส่วนใหญ่อยู่ในทวีปอเมริกาเหนือกับยุโรป ซึ่งมีระดับ PM2.5 "Low" และ "Moderate" เป็นส่วนมาก
+Data from 2023–2024 indicates that most air quality measurements were collected from North America and Europe, where "Low" and "Moderate" PM2.5 levels are predominant.
