@@ -1,6 +1,6 @@
-# **NIDA Data Science and Analysis Projects**  
+# **NIDA Data Science and Analytics Projects**  
 📌 **About this Repository**  
-This repository contains projects and assignments completed during my studies at **NIDA (National Institute of Development Administration)** in the **Data Science and Analysis** program. Each project applies techniques in **Machine Learning, Data Analytics, and Data Visualization**.
+This repository contains projects and assignments completed during my studies at **NIDA (National Institute of Development Administration)** in the **Data Science and Analytics** program. Each project applies techniques in **Machine Learning, Data Analytics, and Data Visualization**.
 
 
 ## **📂 Project List**  
