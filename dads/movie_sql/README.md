@@ -35,7 +35,5 @@ The dataset used for this analysis contains the following columns:
   - This includes the use of SQL processes and visualizations to analyze the movie data.
 
 ### Example Key Findings
-![Movies Image](data-python-nd/dads/data/movies.jpg)
-![Movies2 Image](data-python-nd/dads/data/movies_genre.jpg)
-- The genre with the highest profit is clearly **Adventure**. However, when comparing individual movies and their respective budgets, the movie **The Blair Witch Project**, which belongs to the **Horror** and **Mystery** genres, stands out as the most profitable when compared to its production budget.
+- The genre with the highest profit is **Adventure**. However, when comparing individual movies and their respective budgets, the movie **The Blair Witch Project**, which belongs to the **Horror** and **Mystery** genres, stands out as the most profitable when compared to its production budget.
 
